@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = "rubygems-ghq"
-  s.version     = "0.1.0"
+  s.version     = "0.1.1"
   s.authors     = ["SHIBATA Hiroshi"]
   s.email       = ["hsbt@ruby-lang.org"]
   s.homepage    = "https://github.com/hsbt/rubygems-ghq"
