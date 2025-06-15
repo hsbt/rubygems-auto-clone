@@ -11,7 +11,13 @@ def clone_gem_repository(spec)
 
   git_urls.each do |git_url|
     puts "#{spec.name}: #{git_url}"
-    system("ghq get #{git_url}")
+    
+    # Check if git-goget is available, if so use git goget instead of ghq get
+    if system("which git-goget > /dev/null 2>&1")
+      system("git goget #{git_url}")
+    else
+      system("ghq get #{git_url}")
+    end
   end
 end
 

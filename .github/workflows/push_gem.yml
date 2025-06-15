@@ -10,12 +10,12 @@ permissions:
 
 jobs:
   push:
-    if: github.repository == 'hsbt/rubygems-ghq'
+    if: github.repository == 'hsbt/rubygems-auto-clone'
     runs-on: ubuntu-latest
 
     environment:
       name: rubygems.org
-      url: https://rubygems.org/gems/rubygems-ghq
+      url: https://rubygems.org/gems/rubygems-auto-clone
 
     permissions:
       contents: write

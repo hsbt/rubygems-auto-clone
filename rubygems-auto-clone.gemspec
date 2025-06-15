@@ -1,10 +1,10 @@
 Gem::Specification.new do |s|
-  s.name        = "rubygems-ghq"
-  s.version     = "0.1.3"
+  s.name        = "rubygems-auto-clone"
+  s.version     = "0.2.0"
   s.authors     = ["SHIBATA Hiroshi"]
   s.email       = ["hsbt@ruby-lang.org"]
-  s.homepage    = "https://github.com/hsbt/rubygems-ghq"
-  s.summary     = "Clone git repositories of installed gems with ghq"
+  s.homepage    = "https://github.com/hsbt/rubygems-auto-clone"
+  s.summary     = "Automatically clone git repositories of installed gems"
   s.description = "A RubyGems plugin that automatically clones git repositories of gems after installation"
   s.license     = "MIT"
 
