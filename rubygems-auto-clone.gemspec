@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = "rubygems-auto-clone"
-  s.version     = "0.2.0"
+  s.version     = "0.2.1"
   s.authors     = ["SHIBATA Hiroshi"]
   s.email       = ["hsbt@ruby-lang.org"]
   s.homepage    = "https://github.com/hsbt/rubygems-auto-clone"
