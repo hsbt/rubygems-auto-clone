@@ -6,7 +6,7 @@ def clone_gem_repository(spec)
   urls = [spec.homepage, spec.metadata["source_code_uri"]].compact
 
   git_urls = urls.select do |url|
-    url && !url.empty? && url.match?(/github\.com|gitlab\.com/) && !url.match?(/\/tree/)
+    url && !url.empty? && url =~ /github\.com|gitlab\.com/ && !(url =~ /\/tree/)
   end.uniq
 
   git_urls.each do |git_url|
